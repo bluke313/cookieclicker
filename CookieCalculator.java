@@ -45,6 +45,7 @@ public class CookieCalculator {
 	
 	public void increaseCPC() {
 	    if (CPCIndex < CPC.length - 1) {
+	        cookieCount -= UpgradeCosts[CPCIndex];
 	        CPCIndex += 1;
 	    }
 	}
